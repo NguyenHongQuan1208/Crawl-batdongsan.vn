@@ -3,7 +3,7 @@
 const fs = require('fs');
 
 // Đường dẫn đến tệp 'bat_dong_san.json'
-const jsonFilePath = './bat_dong_san.json';
+const jsonFilePath = './bat_dong_san_vn.json';
 
 // Đọc nội dung của tệp JSON
 fs.readFile(jsonFilePath, 'utf8', (err, data) => {
